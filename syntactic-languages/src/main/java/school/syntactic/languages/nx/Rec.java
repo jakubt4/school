@@ -13,9 +13,10 @@ public class Rec {
         this.bigInt = new BigInteger("1");
     }
 
-    public void calculate() {
+    public BigInteger calculate() {
         prepareRecurzion(0);
         System.out.println(this.bigInt.toString());
+        return this.bigInt;
     }
 
     private void prepareRecurzion(int i) {
